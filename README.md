@@ -145,12 +145,12 @@
 •	In Spring Boot, you only need to mention the starter POM using the <dependency> tag, which will download all the related dependencies into the project.
   
   Here are some of the commonly used starters: 
-  - $${\color{red}spring-boot-starter }$$ (core starter): Used to enable logging, auto-configuration and YAML 
-  - $${\color{red}spring-boot-starter-web}$$: Used for creating web and RESTful applications with Spring MVC 
-  - $${\color{red}spring-boot-starter-data-jpa}$$: Used for database access using Spring Data JPA with Hibernate 
-  - $${\color{red}spring-boot-starter-security}$$: Used for Spring Security 
-  - $${\color{red}spring-boot-starter-test}$$: Used for testing an application with libraries such as Junit and Mockito 
-  - $${\color{red}spring-boot-starter-aop}$$: Used for Aspect-Oriented Programming with Spring AOP and Aspect
+  - ${\color{red}spring-boot-starter }$ (core starter): Used to enable logging, auto-configuration and YAML 
+  - ${\color{red}spring-boot-starter-web}: Used for creating web and RESTful applications with Spring MVC 
+  - ${\color{red}spring-boot-starter-data-jpa}$: Used for database access using Spring Data JPA with Hibernate 
+  - ${\color{red}spring-boot-starter-security}$: Used for Spring Security 
+  - ${\color{red}spring-boot-starter-test}$: Used for testing an application with libraries such as Junit and Mockito 
+  - ${\color{red}spring-boot-starter-aop}$: Used for Aspect-Oriented Programming with Spring AOP and Aspect
 
 •	Using Spring Boot, you can package your web applications as jar files containing both the code and an embedded server. To ensure that your application is running in the auto-configure mode, you can use the @SpringBootApplication annotation.
   
