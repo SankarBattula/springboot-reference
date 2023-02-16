@@ -27,5 +27,5 @@
    Spring provides the following two distinct types of containers:
    - Spring BeanFactory Container
    - Spring ApplicationContext Containe
-  
-   ![image](https://user-images.githubusercontent.com/20484835/219434846-e8d1e43d-c9c2-4d88-b8dd-ca2822d4e835.png)
+   ![image](https://user-images.githubusercontent.com/20484835/219435594-1b259a3e-a9c7-49e3-be56-646b29333501.png)
+
