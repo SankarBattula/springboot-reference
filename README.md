@@ -99,5 +99,18 @@
         ● Session 
         ● Global-session
 
+        Single tone -
+        
+        @Component
+        @Scope(ConfigurableBeanFactory.SCOPE_SINGLETON)
+            public class EnglishGreetingService implements GreetingService {
+        }
+        
+        Prototype -
+        
+        @Component
+        @Scope(ConfigurableBeanFactory.SCOPE_PROTOTYPE)
+            public class EnglishGreetingService implements GreetingService {
+        }
       
       
