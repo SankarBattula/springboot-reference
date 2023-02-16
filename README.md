@@ -33,3 +33,9 @@
   1. XML-based configuration
   2. Java-based configuration
   3. Annotation-based configuration
+
+ In Spring, you can perform DI in three ways:
+ 
+  ● Field or property injection
+  ● Setter injection
+  ● Constructor injectio
