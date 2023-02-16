@@ -129,7 +129,7 @@
 # Spring Boot :
   
 •	Spring Boot can further simplify a developer’s job by handling the boilerplate configuration, which you need to write in the Spring framework. 
-  Spring eliminates the need for writing boilerplate code. In addition to this, Spring Boot eliminates the need for writing boilerplate configurations. 
+  Spring eliminates the need for writing boilerplate code. In addition to this, Spring Boot eliminates the need for writing $\color{red}{boilerplate configurations}$.
 
 •	Spring Boot takes an opinionated view of building Spring applications, which means that Spring Boot comes with certain default configurations, and it makes some smart assumptions to auto-configure your application.
 
@@ -152,7 +152,7 @@
   - $\color{red}{spring-boot-starter-test}$: Used for testing an application with libraries such as Junit and Mockito 
   - $\color{red}{spring-boot-starter-aop}$: Used for Aspect-Oriented Programming with Spring AOP and Aspect
 
-•	Using Spring Boot, you can package your web applications as jar files containing both the code and an embedded server. To ensure that your application is running in the auto-configure mode, you can use the @SpringBootApplication annotation.
+•	Using Spring Boot, you can package your web applications as jar files containing both the code and an embedded server. To ensure that your application is running in the auto-configure mode, you can use the $\color{red}{@SpringBootApplication}$ annotation.
   
    This annotation is a combination of three annotations:
   
