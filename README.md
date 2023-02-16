@@ -36,6 +36,6 @@
 
  In Spring, you can perform DI in three ways:
  
-  ● Field or property injection
-  ● Setter injection
-  ● Constructor injectio
+ - Field or property injection
+ - Setter injection
+ - Constructor injectio
