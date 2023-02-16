@@ -38,7 +38,7 @@
  
  - Field or property injection
  - Setter injection
- - Constructor injectio
+ - Constructor injection
 
   Field or propery injection
   
@@ -62,6 +62,22 @@
        private TimeService timeService;
        @Autowired
        public void setTimeService(TimeService timeService) {
+          this.timeService = timeService;
+       }
+       @Override
+       public void greet(String name) {
+         //Implementation goes here
+       }
+    }
+    
+    Constructor injection 
+  
+    @Component
+    public class EnglishGreetingService implements GreetingService {
+    
+       private TimeService timeService;
+       @Autowired
+       public EnglishGreetingService(TimeService timeService) {
           this.timeService = timeService;
        }
        @Override
