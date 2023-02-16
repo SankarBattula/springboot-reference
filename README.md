@@ -10,9 +10,8 @@
   Dependency Injection is the design princial, which helps to inject dependencies in to depedent objects.
   There are basically three types of dependency injection:
   
-    -  Constructor injection: the dependencies are provided through a class constructor.
-    -  Setter injection: the client exposes a setter method that the injector uses to inject the dependency.
-    -  Field-Based Dependency Injection : We can inject the dependencies by marking them with an @Autowired annotation:
-    
-    
+    1. Constructor injection: the dependencies are provided through a class constructor.
+    2. Setter injection: the client exposes a setter method that the injector uses to inject the dependency.
+    3. Field-Based Dependency Injection : We can inject the dependencies by marking them with an @Autowired annotation:
+   
     reference link : https://www.baeldung.com/inversion-control-and-dependency-injection-in-spring
