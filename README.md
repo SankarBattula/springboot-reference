@@ -145,6 +145,7 @@
 •	In Spring Boot, you only need to mention the starter POM using the <dependency> tag, which will download all the related dependencies into the project.
   
   Here are some of the commonly used starters: 
+  
   a. ${\color{red}spring-boot-starter }$ (core starter): Used to enable logging, auto-configuration and YAML 
   b. ${\color{red}spring-boot-starter-web}$: Used for creating web and RESTful applications with Spring MVC 
   c. ${\color{red}spring-boot-starter-data-jpa}$: Used for database access using Spring Data JPA with Hibernate 
