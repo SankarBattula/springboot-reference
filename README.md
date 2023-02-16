@@ -25,5 +25,5 @@
 **Spring Container :**
 
    Spring provides the following two distinct types of containers:
-    ● Spring BeanFactory Container
-    ● Spring ApplicationContext Containe
+   - Spring BeanFactory Container
+   - Spring ApplicationContext Containe
