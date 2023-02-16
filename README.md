@@ -118,8 +118,10 @@
       If there is more than one class implementing an interface, then you would need to tell Spring whose bean it should inject out of those classes. 
       This can be done by making use of the @Qualifier annotation.
     
+      ```
       public class Store {
           @Autowired
           @Qualifier("item1")
           private Item item;
       }
+      ```
