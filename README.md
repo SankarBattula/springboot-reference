@@ -1,4 +1,4 @@
-# springboot-reference
+# Springboot-reference
 
 **Inversion of Control (IoC)**
 
@@ -85,3 +85,18 @@
          //Implementation goes here
        }
     }
+
+  Bean Scope :
+  
+     By default, Spring creates one bean per dependency class, but you can control this feature using the @Scope annotatio
+     The default scope of a Spring bean is Singleton. You can change the scope of a bean by making use of the @Scope annotation. 
+     The different scopes of a bean are as follows:
+     
+        ● Singleton 
+        ● Prototype 
+        ● Request 
+        ● Session 
+        ● Global-session
+
+      
+      
