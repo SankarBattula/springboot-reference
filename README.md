@@ -152,7 +152,7 @@
   - $\color{red}{spring-boot-starter-test}$: Used for testing an application with libraries such as Junit and Mockito 
   - $\color{red}{spring-boot-starter-aop}$: Used for Aspect-Oriented Programming with Spring AOP and Aspect
 
-•	Using Spring Boot, you can package your web applications as jar files containing both the code and an embedded server. To ensure that your application is running in the auto-configure mode, you can use the $\color{red}{@SpringBootApplication}$ annotation.
+•	Using Spring Boot, you can package your web applications as jar files containing both the code and an **embedded server**. To ensure that your application is running in the **auto-configure mode**, you can use the $\color{red}{@SpringBootApplication}$ annotation.
   
    This annotation is a combination of three annotations:
   
@@ -174,7 +174,7 @@
   4. Environment variables
   5. YAML files
   
-•	By using the @Profile annotation, you can control the bean creation process. You can specify the profiles for which you want the bean to be created, and the bean will be created only when the active profile is set to that profile.
+•	By using the **@Profile** annotation, you can control the bean creation process. You can specify the profiles for which you want the bean to be created, and the bean will be created only when the active profile is set to that profile.
 
 
   
