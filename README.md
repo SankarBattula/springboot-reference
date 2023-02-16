@@ -134,10 +134,10 @@
 
 •	Spring Boot projects can be created in a number of ways using the following:
 
-  o	Spring Boot Initializr
-  o	Spring Starter Project Wizard Of IntelliJ or Eclipse
-  o	Spring Boot CLI
-  o	Spring Maven Project
+  1. pring Boot Initializr
+  2. Spring Starter Project Wizard Of IntelliJ or Eclipse
+  3. Spring Boot CLI
+  4. Spring Maven Project
   
 •	In Spring Boot, you only need to mention the starter POM using the <dependency> tag, which will download all the related dependencies into the project.
   
@@ -151,11 +151,11 @@
   
 •	You can configure the project using the following:
   
-  o	Application.properties file
-  o	Command-line arguments
-  o	Java system properties
-  o	Environment variables
-  o	YAML files
+  1. Application.properties file
+  2. Command-line arguments
+  3. Java system properties
+  4. Environment variables
+  5. YAML files
   
 •	By using the @Profile annotation, you can control the bean creation process. You can specify the profiles for which you want the bean to be created, and the bean will be created only when the active profile is set to that profile.
 
