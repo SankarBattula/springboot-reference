@@ -1,4 +1,4 @@
-# Springboot-reference
+# Introduction to Spring Core and Spring Boot
 
 **Inversion of Control (IoC)**
 
@@ -126,7 +126,7 @@
       }
       ```
 
-# Spring Boot :
+**Spring Boot :**
   
 •	Spring Boot can further simplify a developer’s job by handling the boilerplate configuration, which you need to write in the Spring framework. 
   Spring eliminates the need for writing boilerplate code. In addition to this, Spring Boot eliminates the need for writing $\color{red}{boilerplate configurations}$.
