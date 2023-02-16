@@ -9,10 +9,6 @@
 
   Dependency Injection is the design princial, which helps to inject dependencies in to depedent objects.
   There are basically three types of dependency injection:
-  
-    1. Constructor injection: the dependencies are provided through a class constructor.
-    2. Setter injection: the client exposes a setter method that the injector uses to inject the dependency.
-    3. Field-Based Dependency Injection : We can inject the dependencies by marking them with an @Autowired annotation:
    
   reference link : https://www.baeldung.com/inversion-control-and-dependency-injection-in-spring
 
@@ -30,3 +26,10 @@
    
    ![image](https://user-images.githubusercontent.com/20484835/219436047-40b9af5f-3e35-44bb-ba59-663314fb4e17.png)
 
+**Spring Core :**
+
+  A bean is an object of a class. You can create beans in the following three ways:
+
+  1. XML-based configuration
+  2. Java-based configuration
+  3. Annotation-based configuration
