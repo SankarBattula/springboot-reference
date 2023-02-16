@@ -22,4 +22,8 @@
   - It uses aspect-oriented programming (AOP).
   - It relies on IoC principles and helps in DI.
   
- 
+**Spring Container :**
+
+   Spring provides the following two distinct types of containers:
+    ● Spring BeanFactory Container
+    ● Spring ApplicationContext Containe
