@@ -112,5 +112,8 @@
         @Scope(ConfigurableBeanFactory.SCOPE_PROTOTYPE)
             public class EnglishGreetingService implements GreetingService {
         }
-      
-      
+ 
+    Resolving Conflicts :
+    
+        If there is more than one class implementing an interface, then you would need to tell Spring whose bean it should inject out of those classes. This can be done by making use of the @Qualifier annotation.
+    
