@@ -155,10 +155,10 @@
 •	Using Spring Boot, you can package your web applications as jar files containing both the code and an embedded server. To ensure that your application is running in the auto-configure mode, you can use the @SpringBootApplication annotation.
   
    This annotation is a combination of three annotations:
-    
-      ● $\color{red}{@SpringBootConfiguration}$ - It enables you to provide a Java-based configuration in the Main class.
-      ● $\color{red}{@EnableAutoConfiguration}$ - It triggers auto-configuration.
-      ● $\color{red}{@ComponentScan}$ - It enables you to scan the @Component classes, which are present in the package that contains the Main class or its subpackag
+  
+   - $\color{red}{@SpringBootConfiguration}$ - It enables you to provide a Java-based configuration in the Main class.
+   - $\color{red}{@EnableAutoConfiguration}$ - It triggers auto-configuration.
+   - $\color{red}{@ComponentScan}$ - It enables you to scan the @Component classes, which are present in the package that contains the Main class or its subpackag
 
 •	A web application is an application that is hosted on a remote server and can be accessed via the Internet.
   
