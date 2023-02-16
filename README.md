@@ -143,7 +143,6 @@
   4. Spring Maven Project
   
 •	In Spring Boot, you only need to mention the starter POM using the <dependency> tag, which will download all the related dependencies into the project.
-  
   Here are some of the commonly used starters: 
   
     - ${\color{red}spring-boot-starter }$ (core starter): Used to enable logging, auto-configuration and YAML 
