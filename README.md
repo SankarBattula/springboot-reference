@@ -162,6 +162,8 @@
 
 •	A web application is an application that is hosted on a remote server and can be accessed via the Internet.
   
+•	Spring Boot supports three embedded servers/containers for application building: Tomcat, Undertow and Jetty. Tomcat is the (Opinionated) default embedded server for Spring Boot applications. Nevertheless, you can configure your application to have Jetty or Undertow as the default embedded server through the pom.xml file.
+  
 •	The different layers of a web application are as follows: data access layer, service layer and presentation layer. The components responsible for interacting with the database are a part of the data access layer. The service layer consists of all the components that are responsible for processing the client request, based on the business logic, and preparing the response. The presentation layer consists of components that expose the end points to the front-end section of a web application. 
   
 •	The components of the data access layer are injected into the components of the service layer. Similarly, the components of the service layer are injected into the components of the controller layer. 
