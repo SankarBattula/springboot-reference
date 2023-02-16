@@ -154,6 +154,8 @@
 
 •	Using Spring Boot, you can package your web applications as jar files containing both the code and an embedded server. To ensure that your application is running in the auto-configure mode, you can use the @SpringBootApplication annotation.
   
+  ![image](https://user-images.githubusercontent.com/20484835/219480089-d33a0208-9506-4783-8f0e-bce2157df20d.png)
+
 •	A web application is an application that is hosted on a remote server and can be accessed via the Internet.
   
 •	The different layers of a web application are as follows: data access layer, service layer and presentation layer. The components responsible for interacting with the database are a part of the data access layer. The service layer consists of all the components that are responsible for processing the client request, based on the business logic, and preparing the response. The presentation layer consists of components that expose the end points to the front-end section of a web application. 
