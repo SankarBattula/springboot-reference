@@ -39,3 +39,17 @@
  - Field or property injection
  - Setter injection
  - Constructor injectio
+
+  Field or propery injection
+  
+    @Component
+    public class EnglishGreetingService implements GreetingService {
+    
+      @Autowired
+      private TimeService timeService;
+
+      @Override
+      public void greet(String name) {
+        //Implementation goes here
+      }
+    }
