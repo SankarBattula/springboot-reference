@@ -125,3 +125,29 @@
           private Item item;
       }
       ```
+
+# Spring Boot :
+  
+  
+•	Spring Boot can further simplify a developer’s job by handling the boilerplate configuration, which you need to write in the Spring framework. Spring eliminates the need for writing boilerplate code. In addition to this, Spring Boot eliminates the need for writing boilerplate configurations. 
+•	Spring Boot takes an opinionated view of building Spring applications, which means that Spring Boot comes with certain default configurations, and it makes some smart assumptions to auto-configure your application.
+•	Spring Boot projects can be created in a number of ways using the following:
+o	Spring Boot Initializr
+o	Spring Starter Project Wizard Of IntelliJ or Eclipse
+o	Spring Boot CLI
+o	Spring Maven Project
+•	In Spring Boot, you only need to mention the starter POM using the <dependency> tag, which will download all the related dependencies into the project.
+•	Using Spring Boot, you can package your web applications as jar files containing both the code and an embedded server. To ensure that your application is running in the auto-configure mode, you can use the @SpringBootApplication annotation.
+•	A web application is an application that is hosted on a remote server and can be accessed via the Internet.
+•	The different layers of a web application are as follows: data access layer, service layer and presentation layer. The components responsible for interacting with the database are a part of the data access layer. The service layer consists of all the components that are responsible for processing the client request, based on the business logic, and preparing the response. The presentation layer consists of components that expose the end points to the front-end section of a web application. 
+•	The components of the data access layer are injected into the components of the service layer. Similarly, the components of the service layer are injected into the components of the controller layer. 
+•	You can configure the project using the following:
+o	Application.properties file
+o	Command-line arguments
+o	Java system properties
+o	Environment variables
+o	YAML files
+•	By using the @Profile annotation, you can control the bean creation process. You can specify the profiles for which you want the bean to be created, and the bean will be created only when the active profile is set to that profile.
+
+
+  
