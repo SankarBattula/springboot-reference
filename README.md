@@ -99,7 +99,7 @@
         ● Session 
         ● Global-session
 
-        Single tone -
+        Singletone -
         
         @Component
         @Scope(ConfigurableBeanFactory.SCOPE_SINGLETON)
