@@ -70,7 +70,7 @@
        }
     }
     
-    Constructor injection 
+  Constructor injection 
   
     @Component
     public class EnglishGreetingService implements GreetingService {
