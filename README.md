@@ -58,7 +58,6 @@
   
   @Component
   public class EnglishGreetingService implements GreetingService {
-
      private TimeService timeService;
      @Autowired
      public void setTimeService(TimeService timeService) {
