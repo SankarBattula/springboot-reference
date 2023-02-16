@@ -15,3 +15,11 @@
     3. Field-Based Dependency Injection : We can inject the dependencies by marking them with an @Autowired annotation:
    
   reference link : https://www.baeldung.com/inversion-control-and-dependency-injection-in-spring
+
+**Features of the Spring framework**
+  - It is lightweight and open sourced.
+  - It is modular and can easily connect with other frameworks.
+  - It uses aspect-oriented programming (AOP).
+  - It relies on IoC principles and helps in DI.
+  
+ 
