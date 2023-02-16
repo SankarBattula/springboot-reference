@@ -53,3 +53,20 @@
         //Implementation goes here
       }
     }
+
+  Setter injection 
+  
+  @Component
+  public class EnglishGreetingService implements GreetingService {
+
+     private TimeService timeService;
+     @Autowired
+     public void setTimeService(TimeService timeService) {
+        this.timeService = timeService;
+     }
+     
+     @Override
+     public void greet(String name) {
+        //Implementation goes here
+     }
+  }
