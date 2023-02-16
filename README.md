@@ -133,7 +133,7 @@
 
 •	Spring Boot takes an opinionated view of building Spring applications, which means that Spring Boot comes with certain default configurations, and it makes some smart assumptions to auto-configure your application.
 
-  ![image](https://user-images.githubusercontent.com/20484835/219474949-de36195f-2418-4c02-9e18-da876ddcb041.png)
+    ![image](https://user-images.githubusercontent.com/20484835/219474949-de36195f-2418-4c02-9e18-da876ddcb041.png)
 
 •	Spring Boot projects can be created in a number of ways using the following:
 
