@@ -154,7 +154,7 @@
 
 •	Using Spring Boot, you can package your web applications as jar files containing both the code and an embedded server. To ensure that your application is running in the auto-configure mode, you can use the @SpringBootApplication annotation.
   
-  ![image](https://user-images.githubusercontent.com/20484835/219480089-d33a0208-9506-4783-8f0e-bce2157df20d.png)
+  ![image](https://user-images.githubusercontent.com/20484835/219480309-ffc9b6bd-0034-4efe-be14-ba2718aa3b1c.png)
 
 •	A web application is an application that is hosted on a remote server and can be accessed via the Internet.
   
