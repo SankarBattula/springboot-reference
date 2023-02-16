@@ -128,18 +128,30 @@
 
 # Spring Boot :
   
-•	Spring Boot can further simplify a developer’s job by handling the boilerplate configuration, which you need to write in the Spring framework. Spring eliminates the need for writing boilerplate code. In addition to this, Spring Boot eliminates the need for writing boilerplate configurations. 
+•	Spring Boot can further simplify a developer’s job by handling the boilerplate configuration, which you need to write in the Spring framework. 
+  Spring eliminates the need for writing boilerplate code. In addition to this, Spring Boot eliminates the need for writing boilerplate configurations. 
 
 •	Spring Boot takes an opinionated view of building Spring applications, which means that Spring Boot comes with certain default configurations, and it makes some smart assumptions to auto-configure your application.
 
+  ![image](https://user-images.githubusercontent.com/20484835/219474949-de36195f-2418-4c02-9e18-da876ddcb041.png)
+
 •	Spring Boot projects can be created in a number of ways using the following:
 
-  1. pring Boot Initializr
+  1. Spring Boot Initializr
   2. Spring Starter Project Wizard Of IntelliJ or Eclipse
   3. Spring Boot CLI
   4. Spring Maven Project
   
 •	In Spring Boot, you only need to mention the starter POM using the <dependency> tag, which will download all the related dependencies into the project.
+  
+  Here are some of the commonly used starters: 
+    ● $${\color{red}spring-boot-starter }$$ (core starter): Used to enable logging, auto-configuration and YAML 
+    ● $${\color{red}spring-boot-starter-web}$$: Used for creating web and RESTful applications with Spring MVC 
+    ● $${\color{red}spring-boot-starter-data-jpa}$$: Used for database access using Spring Data JPA with Hibernate 
+    ● $${\color{red}spring-boot-starter-security}$$: Used for Spring Security 
+    ● $${\color{red}spring-boot-starter-test}$$: Used for testing an application with libraries such as Junit and Mockito 
+    ● $${\color{red}spring-boot-starter-aop}$$: Used for Aspect-Oriented Programming with Spring AOP and Aspect
+
   
 •	Using Spring Boot, you can package your web applications as jar files containing both the code and an embedded server. To ensure that your application is running in the auto-configure mode, you can use the @SpringBootApplication annotation.
   
