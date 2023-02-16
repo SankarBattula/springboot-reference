@@ -58,14 +58,14 @@
   
   @Component
   public class EnglishGreetingService implements GreetingService {
-     private TimeService timeService;
-     @Autowired
-     public void setTimeService(TimeService timeService) {
-        this.timeService = timeService;
-     }
+    private TimeService timeService;
+    @Autowired
+    public void setTimeService(TimeService timeService) {
+      this.timeService = timeService;
+    }
      
-     @Override
-     public void greet(String name) {
-        //Implementation goes here
-     }
+    @Override
+    public void greet(String name) {
+      //Implementation goes here
+    }
   }
